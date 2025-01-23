@@ -1,0 +1,2 @@
+Fizzbuzz game
+Program takes user’s input and prints the numbers from one to the number the user entered. For multiples of three it prints Fizz instead of the number and for the multiples of five it prints Buzz. For numbers which are multiples of both three and five it prints FizzBuzz
