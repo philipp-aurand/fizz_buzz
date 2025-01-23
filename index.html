@@ -7,8 +7,21 @@
 </head>
 <body>
     <script>
-        let firstNumber = 1;
+        
         let secondNumber = prompt("Enter a valid number:");
+        let result = 0;
+
+        for(let i = 1; i <= secondNumber; i++) {
+            result += i;
+
+            if (i % 3 === 0) {
+                console.log("Fizz");
+            } else {
+                console.log(i);
+            }
+        }
+
+
     </script>
 </body>
 </html>
