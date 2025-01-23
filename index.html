@@ -8,20 +8,22 @@
 <body>
     <script>
         
-        let secondNumber = prompt("Enter a valid number:");
-        let result = 0;
+        let secondNumber = parseInt(prompt("Enter a valid number:"));
 
         for(let i = 1; i <= secondNumber; i++) {
-        result += i;        
-
-            if (i % 3 === 0) {
+               
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log("FizzBuzz");
+            } else if (i % 5 === 0) {
+                console.log("Buzz");
+            } else if (i % 3 === 0) {
                 console.log("Fizz");
             } else {
                 console.log(i);
             }
         }
 
-console.log(result);
+
     </script>
 </body>
 </html>
